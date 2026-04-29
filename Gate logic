@@ -1,0 +1,8 @@
+function ADR002Gate(context) {
+  if (!authValid(context.user)) return REJECT("identity");
+  if (!scopeValid(context.scopes)) return REJECT("scope");
+  if (!riskValid(context.system)) return REJECT("risk");
+  if (!ciStatusOK(context.build)) return REJECT("ci");
+
+  return FORWARD_TO_SANDBOX();
+}
