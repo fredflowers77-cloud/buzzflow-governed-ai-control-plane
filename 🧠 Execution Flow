@@ -1,0 +1,11 @@
+Client Request
+↓
+Firebase Auth
+↓
+ADR002 Policy Gate
+↓
+Firestore Scope + State
+↓
+ADR003 Sandbox Runtime
+↓
+Immutable Audit Log
