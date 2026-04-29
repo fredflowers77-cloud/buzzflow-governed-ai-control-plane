@@ -1,0 +1,26 @@
+
+Firebase Auth identity enforcement
+ADR002 policy validation
+ADR003 sandbox isolation
+No direct execution path
+Immutable audit logging
+GitHub Actions CI/CD gate enforcement
+Zero-trust execution model
+Audit-ready governance structure
+⚙️ Tech Stack
+Layer
+Tool
+Frontend
+Next.js / React
+Backend
+Node.js / Firebase Functions
+Auth
+Firebase Auth
+Database
+Firestore
+CI/CD
+GitHub Actions
+Governance
+ADR002 / ADR003
+Runtime
+Sandbox Execution Layer
